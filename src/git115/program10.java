@@ -35,7 +35,7 @@ public class program10 {
 }
 }
 // Main
-package git115;
+
 
 public class MainStudentRBCA22106 {
 	

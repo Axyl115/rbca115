@@ -27,8 +27,20 @@ public class program6Test {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testPerson() {
+		 //Create two instances of the Person class
+			program6 person1 = new program6 ("John", 30);
+			program6  person2 = new program6("Alice", 25);
+
+		        // Test the attributes of the first person
+		        assertEquals("John", person1.getName());
+		        assertEquals(30, person1.getAge());
+
+		        // Test the attributes of the second person
+		        assertEquals("Alice", person2.getName());
+		        assertEquals(25, person2.getAge());
+	}
+	}
 	}
 
 }

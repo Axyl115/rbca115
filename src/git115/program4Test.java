@@ -27,8 +27,28 @@ public class program4Test {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testCountDigitforZero() {
+		program4 counter=new program4();
+		int results=counter.countDigits(0);
+		
+		assertEquals(1,results);
+		
+		
+		
 	}
+	@Test
+	public void testCountDigitForPositiveNumber() {
+		program4 counter=new program4();
+		int results=counter.countDigits(10987);
+		
+		assertEquals(5,results);
+	}
+	@Test
+	public void testCountDigitforNegativeNumber() {
+		program4 counter=new program4();
+		int results=counter.countDigits(-123);
+		
+		assertEquals(3,results);
+
 
 }

@@ -27,8 +27,9 @@ public class program8Test {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-
+	public void testCalculation() {
+		program8 employee=new program8("Yohan","clerk",6100);
+	
+assertEquals(6100,employee.getDa();
+}
 }
